@@ -1,0 +1,156 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.noOfPasswordsPara{
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+.appComponent {
+  min-height: 100vh;
+  background-image: linear-gradient(to bottom, #9ba9eb, #c3caea);
+}
+
+.rule {
+  width: 95%;
+  margin: 12px;
+}
+
+.yourPasswordsWithNo {
+  display: flex;
+  align-items: center;
+}
+
+.passwordManager {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  height: 100%;
+  font-family: Roboto;
+}
+
+.noPasswordsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.noPasswordsPara {
+  font-size: 20px;
+}
+
+.noPasswordsImg {
+  width: 350px;
+  height: 250px;
+}
+
+.topSection {
+  margin: 8px 40px;
+  background-color: #5763a5;
+  padding: 30px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.bottomSection {
+  display: flex;
+  margin: 8px 40px;
+  background-color: #5763a5;
+  padding: 30px;
+  border-radius: 10px;
+}
+
+.appLogo {
+  width: 200px;
+  height: 60px;
+  margin: 8px 40px;
+}
+
+.passwordAdder {
+  background-color: #454f84;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  color: white;
+  align-items: flex-start;
+}
+
+.passwordAdderImage {
+  width: 350px;
+  height: 350px;
+}
+
+.globeImage {
+  border-right: 1px solid gray;
+  width: 31px;
+  height: 30px;
+  padding: 7px;
+}
+
+.inputField {
+  display: flex;
+  align-items: center;
+  border: 1px solid green;
+  background-color: white;
+  width: 250px;
+  border-radius: 5px;
+  margin: 10px 0px;
+  height: 37px;
+}
+
+.inputTag {
+  border: none;
+  height: 30px;
+  width: 100%;
+  font-size: 14px;
+  outline: none;
+  padding-left: 6px;
+  border-radius: 5px;
+}
+
+.addButton {
+  color: white;
+  background-color: #0b69ff;
+  padding: 8px 15px;
+  border-radius: 5px;
+  border: none;
+  align-self: flex-end;
+  margin-top: 10px;
+}
+
+.bottomSection {
+  color: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.bottomFirst {
+  display: flex;
+  justify-content: space-between;
+}
+
+.passwordItems {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.showPasswordsCheck {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
